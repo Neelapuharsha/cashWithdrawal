@@ -1,0 +1,103 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+body {
+  margin: 0px;
+}
+.bg-con {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui-con {
+  background-color: #150b3e;
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;
+}
+.circle {
+  height: 80px;
+  width: 80px;
+  background-color: #c7d2fe;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+  margin-right: 16px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.name-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  color: #c7d2fe;
+  font-weight: normal;
+}
+.balance-con {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+.in-words {
+  color: #585076;
+  font-size: 14px;
+  font-weight: 500;
+}
+br {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 2px;
+  line-height: 2px;
+}
+.withdraw-text {
+  color: #d4d2db;
+}
+.choose-text {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+}
+.denomination {
+  height: 35px;
+  width: 165px;
+
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  color: #c4c4c4;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
